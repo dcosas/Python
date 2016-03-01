@@ -3,6 +3,10 @@
 #Limitations: Landsat8 sattelite is operational since april 2013, data before might not be available. New data is received each 16 days.
 #KnownIssues: if any command fails, there is no retry or error handling
 
+#links:
+# http://landsat.usgs.gov/landsat8.php
+# https://api.nasa.gov/api.html#earth
+
 nasaApiKey = 'DEMO_KEY'
 
 import urllib.request
