@@ -1,5 +1,8 @@
 #README: This server starts on the local IP (not loopback but the real IP) 
 #and based on the string that is received it responds acordingly
+#Usage: ServerSimulator {PORT}
+#Usage example: cmd.exe > python ServerSimulator.py 1234
+
 
 import socket
 import sys
